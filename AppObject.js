@@ -43,8 +43,12 @@ function App(n,m,s){
 }
 
 //Use the constructor to create 4 App objects below.
-
+var Roseapp = new App("Roserita",50,"sleep");
+var Tonyapp = new App("TonyMazz",100,"sleep");
+var Flemapp = new App("Flemdawg",500,"active");
+var Klineapp = new App("CalvinKline",120,"sleep");
 
 
 //Declare an array named appList, and place all 4 of your apps in that array.
 //The order does not matter.
+var applist = [Roseapp,Tonyapp,Flemapp,Klineapp];
